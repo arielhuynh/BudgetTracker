@@ -3,12 +3,14 @@ body {
   font-family: Arial;
   background-image: url("icons/MONEY.png");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
+
 }
 
 button, input {
   font-size: 100%;
   font-family: Arial;
+  background-color: rgb(231, 131, 131);
 }
 
 table {
@@ -51,4 +53,8 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 75px;
 }
